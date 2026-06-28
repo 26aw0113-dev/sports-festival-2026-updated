@@ -141,56 +141,58 @@
         </div>
         <div class="dotted__pattern">
         <!-- SLIDESHOW SCRIPT START -->
-            <div class="slider slider-left">
-                <div class="slide-track">
-                    <img src="assets/images/slideshow/Rectangle-6.png" alt=仮置き>
-                    <img src="assets/images/slideshow/Rectangle-7.png" alt=仮置き>
-                    <img src="assets/images/slideshow/Rectangle-8.png" alt=仮置き>
-                    <img src="assets/images/slideshow/Rectangle-9.png" alt=仮置き>
-                    <img src="assets/images/slideshow/Rectangle-10.png" alt=仮置き>
-                </div>
+
+        <section id="slide-show">
+            <div class="slider-wrapper slider-left">
+                <ul class="slider">
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-6.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-7.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-8.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-9.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-10.png" alt=仮置き></li>
+                </ul>
             </div>
-        <div class="slider slider-right">
-            <div class="slide-track">
-                <img src="assets/images/slideshow/Rectangle-6.png" alt=仮置き>
-                <img src="assets/images/slideshow/Rectangle-7.png" alt=仮置き>
-                <img src="assets/images/slideshow/Rectangle-8.png" alt=仮置き>
-                <img src="assets/images/slideshow/Rectangle-9.png" alt=仮置き>
-                <img src="assets/images/slideshow/Rectangle-10.png" alt=仮置き>
-            </div>
-        </div>
-        <!-- SLIDESHOW SCRIPT END -->
-        <!--　TOURNAMENT RESULTS START　-->
-        <section id="results">
-            <div class="container results__inner">
-                <h1 class="results__title">
-                    大会結果
-                </h1>
-                <p class="results__subtitle">
-                    FINAL RESULTS
-                </p>
-                <div class="results__image-wrap">
-                    <img src="assets/images/venues/winner.webp" alt=優勝旗授与の様子（仮）>
-                </div>
-                <h2 class="results__text-title">
-                    優勝　〇〇
-                </h2>
-                <div class="results__body">
-                    <p>
-                        今年のスポーツフェスティバルも無事終了いたしました！<br>
-                        参加された皆さん、本当にお疲れ様でした。
-                    </p>
-                    <p>
-                        見事優勝に輝いた【〇〇チーム】の皆さん、本当におめでとうございます！<br>
-                        今大会の景色が、皆さんの心にながく残る「思い出」となりますように。
-                    </p>
-                </div>
-                <a href="./details/">
-                    <button class="program__card-btn font-maru">競技の結果を見る <img src="./assets/images/icons/compe__to-detail-arrow.svg" alt="競技の結果を見るアイコン" class="img-fluid program__card-btn-icon"></button> 
-                </a>
+            <div class="slider-wrapper slider-right">
+                <ul class="slider">
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-6.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-7.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-8.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-9.png" alt=仮置き></li>
+                    <li class="slide"><img src="assets/images/slideshow/Rectangle-10.png" alt=仮置き></li>
+                </ul>
             </div>
         </section>
-        <!--　TOURNAMENT RESULTS END　-->
+        <!-- SLIDESHOW SCRIPT END -->
+        <!-- TOURNAMENT RESULTS START -->
+        <section id="results">
+            <div class="container results__inner">
+                <div class="results__header">
+                    <p class="results__label">FINAL RESULTS</p>                
+                    <h2 class="results__title">大会結果</h2>
+                </div>
+                <div class="results-content">
+                    <img class="results__image" src="assets/images/venues/winner.webp" alt=優勝旗授与の様子（仮）>
+                    <h3 class="results__text-title">
+                        優勝　〇〇
+                    </h3>
+                    <div class="results__body">
+                        <p class="results__body--p">
+                            今年のスポーツフェスティバルも<br class="mb">無事終了いたしました！<br>
+                            参加された皆さん、本当にお疲れ様でした。
+                        </p>
+                        <p class="results__body--p">
+                            見事優勝に輝いた【〇〇チーム】の皆さん、<br class="mb">本当におめでとうございます！<br>
+                            今大会の景色が、皆さんの心にながく残る<br class="mb">「想い出」となりますように。
+                        </p>
+                    </div>
+                </div>
+            </div>               
+            <a href="./details/">
+                <button class="results__btn font-maru">競技の結果を見る <img src="./assets/images/icons/compe__to-detail-arrow.svg" alt="競技の結果を見るアイコン" class="img-fluid results__btn-icon"></button> 
+            </a>
+
+        </section>
+        <!-- TOURNAMENT RESULTS END -->
         <!-- THEME SECTION START -->
         <section id="theme">
             <div class="container theme__inner">
